@@ -1,0 +1,243 @@
+.container {
+            background-color:#ab183d;
+            height: 190px;
+            color: hsl(208, 100%, 97%);
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 200px;
+            margin-right: 200px;
+            margin-top: 30px;
+            padding-top: 20px;
+
+}
+.address{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 50px;
+    font-size:30px;
+
+}
+
+    img{
+    width: 150px;
+    height: 150px;
+    mix-blend-mode:color-burn;
+    margin-left:5px;
+   padding-bottom: 30PX;
+}
+.nav3{
+    
+    background-color: rgb(14, 13, 13);
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 50px;
+}
+.item{
+    display: inline;
+    align-items: center;
+    color: aliceblue;
+    font-size:x-large;
+    padding-top: 30px;
+    margin-top: 10px;
+
+}
+.class1{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size:x-large;
+    color: black;
+}
+.class2{
+    margin-left: 200px;
+    margin-right: 200px;
+    color: rgb(243, 8, 43);
+    text-align: center;
+    font-size:large;
+    
+}
+.latestnews{
+  
+    margin-left: 200px;
+    margin-right: 200px;
+   font-size: x-large;
+    
+     }
+     a{
+        color: rgb(33, 33, 241);
+        text-decoration: none;
+     }
+     
+     
+
+
+.class4{
+    font-size: xx-large;
+    color:white;
+    background-color: rgba(1, 12, 82, 0.987);
+    margin-left: 515px;
+    margin-right: 515px;
+    text-align: center;
+    
+}
+.container1{
+   
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap:0.3rem;
+    padding:1rem;
+
+
+}
+.item1{
+    grid-row-start: 1;
+    grid-row-end:1;
+    background-color: blue;
+    color:rgb(242, 240, 240);
+    border: 3px solid white;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-style: bold;
+}
+.item2{
+   grid-row-start: 2;
+   grid-row-end: 2;
+   background-color: rgb(79, 28, 28);
+    color:rgb(242, 240, 240);
+    border: 3px solid white;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-style: bold;
+}
+.item3{
+   grid-row-start: 1;
+   grid-column-end: 2;
+   background-color: rgb(44, 104, 72);
+    color:rgb(242, 240, 240);
+    border: 3px solid white;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-style: bold;
+
+}
+.item4{
+    grid-row-start: 2;
+    grid-column-end: 2;
+    background-color: rgb(168, 3, 154);
+    color:rgb(242, 240, 240);
+    border: 3px solid white;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-style: bold;
+}
+.item5{
+    grid-row-start: 1;
+    grid-column-end: 3;
+    background-color: rgb(5, 14, 192);
+    color:rgb(242, 240, 240);
+    border: 3px solid white;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-style: bold;
+
+}
+.item6{
+    grid-row-start: 2;
+    grid-column-end: 3;
+    background-color: rgb(218, 48, 5);
+    color:rgb(242, 240, 240);
+    border: 3px solid white;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-style: bold;
+
+}
+.item7{
+    grid-row-start: 1;
+    grid-column-end: 4;
+    background-color: rgb(18, 72, 7);
+    color:rgb(242, 240, 240);
+    border: 3px solid white;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-style: bold;
+
+}
+.item8{
+    grid-row-start: 2;
+    grid-column-end: 4;
+    background-color: rgb(192, 4, 4);
+    color:rgb(242, 240, 240);
+    border: 3px solid white;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-style: bold;
+
+}
+.container2{
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 2px;
+    display: flex;
+}
+#box1{
+    height: 700px;
+    width:310px ;
+    border: 2px solid red;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+    font-size:25px;
+   
+}
+
+#box2{
+      
+    height: 700px;
+    width:310px ;
+    border: 2px solid red;
+    margin: 2px;
+    padding: 0px;
+    text-align: center;
+    font-size:25px;
+   
+   
+}
+#box3{
+    height: 700px;
+    width:310px ;
+    border: 2px solid red;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+    font-size:25px;
+   
+   
+}
+p{
+    color: ghostwhite;
+    background-color: #ab183d;
+    box-sizing: border-box;
+}
+li{
+    font-size: 17px;
+}
